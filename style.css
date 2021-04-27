@@ -1,5 +1,4 @@
-@charset "UTF-8";
-.title {
+.title, .gallery {
   margin-top: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
@@ -11,7 +10,7 @@ header {
 }
 
 .img-head {
-  height: 270px;
+  height: 290px;
 }
 
 .title {
@@ -27,6 +26,11 @@ header {
           align-items: center;
 }
 
+header .navbar {
+  height: 50px;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
 .card {
   border-radius: 10px;
 }
@@ -36,13 +40,12 @@ header {
 }
 
 .foot {
-  margin-top: 30px;
   height: 400px;
-  width: 100ù;
+  width: 100%;
   border-radius: 100px;
   background-image: url(/images/foot.PNG);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-size: 100%;
+  background-repeat: no repeat;
 }
 
 .equipe {
@@ -77,5 +80,26 @@ article.score > p {
 
 p > b {
   margin-left: 15px;
+}
+
+ul.navbar-nav > li > a:hover {
+  background-color: black;
+}
+
+.gallery {
+  border-top: #dad4d4 solid 1px;
+  margin-top: 30px;
+}
+
+.soccer {
+  border-bottom: #dad4d4 solid 1px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */

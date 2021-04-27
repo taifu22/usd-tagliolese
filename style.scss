@@ -8,7 +8,7 @@ header {
     margin-top: 0;
 }
 .img-head {
-    height: 270px;
+    height: 290px;
 }
 .title {
     height: 100px;
@@ -17,8 +17,9 @@ header {
     align-items: center;
     @extend %title
 }
-body {
-    
+header .navbar {
+    height: 50px;
+    background:rgba(0, 0, 0, 0.6) !important
 }
 .card {
     border-radius: 10px;
@@ -27,13 +28,12 @@ body {
     border-radius: 10px;
 }
 .foot {
-    margin-top: 30px;
     height: 400px;
-    width: 100ù;
+    width: 100%;
     border-radius: 100px;
     background-image:url(/images/foot.PNG) ;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-size: 100%;
+    background-repeat:no repeat;
 }
 .equipe {
     height: 36px;
@@ -55,4 +55,18 @@ article.score > p {
 p > b {
     margin-left: 15px;
 }
-
+ul.navbar-nav > li > a:hover {
+    background-color: black;
+} 
+.gallery {
+    @extend %title;
+    border-top:rgb(218, 212, 212) solid 1px;
+    margin-top: 30px;
+}
+.soccer {
+    border-bottom:rgb(218, 212, 212) solid 1px; ;
+    padding-bottom: 40px;
+}
+.btn {
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
