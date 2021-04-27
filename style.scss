@@ -4,6 +4,9 @@
     color: white;
     text-shadow: 1px 1px 5px black;
 }
+body {
+    position: relative;
+}
 header {
     margin-top: 0;
 }
@@ -69,4 +72,26 @@ ul.navbar-nav > li > a:hover {
 }
 .btn {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+footer {
+    
+    height: 100px;
+    background: linear-gradient(45deg, red, yellow);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-footer {
+    font-size: small;
+    color: white;
+}
+.socials {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: fixed;
+    bottom: 200px;
+    left: 0;
+
 }
