@@ -4,14 +4,17 @@
     color: white;
     text-shadow: 1px 1px 5px black;
 }
-body {
-    position: relative;
+%socials {
+    position: fixed;
+    left: 5px;
+    transition: all 0.5s;
 }
 header {
     margin-top: 0;
 }
 .img-head {
     height: 290px;
+    width: 100%;
 }
 .title {
     height: 100px;
@@ -26,6 +29,7 @@ header .navbar {
 }
 .card {
     border-radius: 10px;
+    box-shadow: 0 10px 10px -9px grey
 }
 .card-img-top {
     border-radius: 10px;
@@ -60,6 +64,7 @@ p > b {
 }
 ul.navbar-nav > li > a:hover {
     background-color: black;
+    border-radius: 5px;
 } 
 .gallery {
     @extend %title;
@@ -71,11 +76,21 @@ ul.navbar-nav > li > a:hover {
     padding-bottom: 40px;
 }
 .btn {
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   background-color: white;
+   border: solid grey 1px;
+   transition: all 0.5s;
+   color: black;
+}
+.btn:hover {
+    background-color: rgb(77, 128, 224);
+    color: white;
+    transition: background-color 0.5s;
+    
 }
 footer {
     
     height: 100px;
+    width: 100%;
     background: linear-gradient(45deg, red, yellow);
     display: flex;
     text-align: center;
@@ -85,13 +100,20 @@ footer {
 .text-footer {
     font-size: small;
     color: white;
-}
-.socials {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    position: fixed;
+}    
+.bi-facebook{
+    @extend %socials;
     bottom: 200px;
-    left: 0;
-
+}
+.bi-twitter{
+    @extend %socials;
+    bottom: 170px;
+}
+.bi-instagram {
+    @extend %socials;
+    bottom: 140px;
+}
+.bi:hover {
+    left: 10px;
+    transition: 0.5s;
 }

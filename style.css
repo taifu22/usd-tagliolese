@@ -5,8 +5,11 @@
   text-shadow: 1px 1px 5px black;
 }
 
-body {
-  position: relative;
+.bi-facebook, .bi-twitter, .bi-instagram {
+  position: fixed;
+  left: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 header {
@@ -15,6 +18,7 @@ header {
 
 .img-head {
   height: 290px;
+  width: 100%;
 }
 
 .title {
@@ -37,6 +41,8 @@ header .navbar {
 
 .card {
   border-radius: 10px;
+  -webkit-box-shadow: 0 10px 10px -9px grey;
+          box-shadow: 0 10px 10px -9px grey;
 }
 
 .card-img-top {
@@ -88,6 +94,7 @@ p > b {
 
 ul.navbar-nav > li > a:hover {
   background-color: black;
+  border-radius: 5px;
 }
 
 .gallery {
@@ -101,14 +108,23 @@ ul.navbar-nav > li > a:hover {
 }
 
 .btn {
-  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  background-color: white;
+  border: solid grey 1px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #4d80e0;
+  color: white;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 footer {
   height: 100px;
+  width: 100%;
   background: linear-gradient(45deg, red, yellow);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,19 +144,21 @@ footer {
   color: white;
 }
 
-.socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: fixed;
+.bi-facebook {
   bottom: 200px;
-  left: 0;
+}
+
+.bi-twitter {
+  bottom: 170px;
+}
+
+.bi-instagram {
+  bottom: 140px;
+}
+
+.bi:hover {
+  left: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=style.css.map */
