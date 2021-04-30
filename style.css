@@ -15,6 +15,12 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+  .maps, .img-section {
+    width: 100%;
+  }
+}
+
 header {
   margin-top: 0;
 }
@@ -32,8 +38,7 @@ header {
 }
 
 header .navbar {
-  height: 50px;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .card {
@@ -207,19 +212,51 @@ legend {
   text-align: end;
   margin-bottom: 170px;
 }
+@media screen and (max-width: 1000px) {
+  .history {
+    margin-bottom: 100px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .history {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: start;
+  }
+}
 
 .history1 {
   text-align: start;
   margin-top: 100px;
   padding: 50px;
 }
+@media screen and (max-width: 1000px) {
+  .history1 {
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
 
 .history2 {
   text-align: start;
   padding: 50px;
 }
+@media screen and (max-width: 1000px) {
+  .history2 {
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
 
 .gallery {
   height: 150px;
   width: 250px;
+}
+
+@media screen and (max-width: 750px) {
+  .information {
+    width: 350px;
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

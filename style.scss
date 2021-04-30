@@ -12,6 +12,11 @@
     margin-left: 0;
     font-size: 20px;
 }
+%query1200px {
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+    }
+}
 body {
    
 }
@@ -30,8 +35,7 @@ header {
     @extend %title
 }
 header .navbar {
-    height: 50px;
-    background:rgba(0, 0, 0, 0.6) !important
+    background-color:rgba(0, 0, 0, 0.6) !important ;
 }
 .card {
     border-radius: 10px;
@@ -183,15 +187,32 @@ legend {
     padding: 50px;
     text-align: end;
     margin-bottom: 170px;
+    @media screen and (max-width: 1000px) {
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+    @media screen and (max-width: 775px) {
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: start;
+    }
 }
 .history1 {
     text-align: start;
     margin-top: 100px;
     padding: 50px;
+    @media screen and (max-width: 1000px) {
+        margin-top: 20px;
+        padding: 20px;
+    }
 }
 .history2 {
     text-align: start;
     padding: 50px;
+    @media screen and (max-width: 1000px) {
+        margin-top: 20px;
+        padding: 20px;
+    }
 }
 .history1 >p > b {
     @extend %history;
@@ -205,4 +226,16 @@ legend {
 .gallery {
     height: 150px;
     width: 250px;
+}
+.img-section {
+    @extend %query1200px;
+}
+.maps {
+   @extend %query1200px;
+}
+.information {
+    @media screen and (max-width: 750px) {
+        width: 350px;
+        margin-top: 20px;
+    }
 }

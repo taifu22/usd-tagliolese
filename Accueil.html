@@ -1,135 +1,149 @@
 <!doctype html>
 <html>
     <head>
-       <title>introduction au css</title>
+       <title>U.S.D Tagliolese</title>
        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.PNG">
+       <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.min.css">
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
        <link rel="stylesheet" href="/style.css" type="text/css">
     </head>
    <body>
     <div class="container-fluid">
-     <header class="row">
-      <div class="col-12">
-       <img class=" img-head w-100" src="/images/image header.PNG" alt="tagliolese">  
-      </div>
-      <div class="col-12">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center fixed-top container-fluid">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav">
-            <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/Accueil.html">Accueil</a></li>
-            <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/A propos de nous.html">A propros de nous</a></li>
-            <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/L'equipe.html">L'équipe</a></li>
-            <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/Foto gallery.html">Photo gallery</a></li>       
-            <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/Contactez-nous.html">Contactez-nous</a></li>         
-          </ul>
+      <header class="row">
+        <div class="col-12">
+          <img class=" img-head w-100" src="/images/image header.PNG" alt="tagliolese">  
         </div>
-    </nav>
-    </div>
-     </header>
-     <section>
-         <h1 class="title">DERNIERES EVENEMENTS</h1>
-         <div class="row d-flex justify-content-center">
-             <div class="col-3">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top container-fluid">
+            <a href="/Accueil.html" class="navbar-brand"><img src="/images/logo.PNG" alt="logo"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-expanded="false"
+                aria-controls="navbarNavDropdown"
+                aria-label="Toggle navigation"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                   </svg>
+               </button>
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/Accueil.html">Accueil</a></li>
+                <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/A propos de nous.html">A propros de nous</a></li>
+                <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/L'equipe.html">L'équipe</a></li>
+                <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/Foto gallery.html">Photo gallery</a></li>       
+                <li class="nav-item active pl-3 pr-3"><a class="nav-link" href="/Contactez-nous.html">Contactez-nous</a></li>         
+              </ul>
+           </div>
+          </nav>
+       </div>
+      </header>
+      <section>
+        <h1 class="title">DERNIERS EVENEMENTS</h1>
+           <div class="row d-flex justify-content-center">
+              <div class="col-md-3 col-12 mb-3">
                 <div class="card">
-                    <img src="/images/preparation du match.PNG" alt="oahu" class="card-img-top">
-                    <div class="card-body">
-                     <h5 class="card-title">Victoire de nos joueurs! </h5>
-                     <p class="card-text">Les joueurs rouge-jaune ont disputé un match incroyable, avec une remonada aux dernieres minutes de jeux...</p>
-                     <button class="btn" data-toggle="modal" data-target="#email">En savoir plus</button> 
-                   </div>
-                   </div>
-             </div>
-             <div class="col-3">
+                  <img src="/images/preparation du match.PNG" alt="oahu" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Victoire de nos joueurs! </h5>
+                    <p class="card-text">Les joueurs rouge-jaune ont disputé un match incroyable, avec une remonada aux dernieres minutes de jeux...</p>
+                    <button class="btn" data-toggle="modal" data-target="#email">En savoir plus</button> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 mb-3">
                 <div class="card">
-                    <img src="/images/Tournoi de taglio di po.PNG" alt="oahu" class="card-img-top">
-                    <div class="card-body">
-                     <h5 class="card-title">Le tournoi de Taglio di po</h5>
-                     <p class="card-text">A cause de la crise sanitaire, le tournoi a du etre arreter et ce jusqu'à nouvelle ordre...</p>
-                     <button class="btn" data-toggle="modal" data-target="#email">En savoir plus</button> 
-                   </div>
-                   </div>
-             </div>
-             <div class="col-3">
+                  <img src="/images/Tournoi de taglio di po.PNG" alt="oahu" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Le tournoi de Taglio di po</h5>
+                    <p class="card-text">A cause de la crise sanitaire, le tournoi a du etre arreter et ce jusqu'à nouvelle ordre...</p>
+                    <button class="btn" data-toggle="modal" data-target="#email">En savoir plus</button> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 mb-3">
                 <div class="card">
-                    <img src="/images/conference aprés match.PNG" alt="oahu" class="card-img-top">
-                    <div class="card-body">
-                     <h5 class="card-title">Conference aprés match</h5>
-                     <p class="card-text"> Aux micros des différents médias, Antonio Conte l'entreneur
+                  <img src="/images/conference aprés match.PNG" alt="oahu" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Conference aprés match</h5>
+                    <p class="card-text"> Aux micros des différents médias, Antonio Conte l'entreneur
                         a réagi à la courte victoire de ses joueurs...</p>
-                     <button class="btn" data-toggle="modal" data-target="#email">En savoir plus</button> 
-                   </div>
-                   </div>
-             </div>
-             <div class="col-12 d-flex justify-content-center mt-3">
-              <button class="btn" data-toggle="modal" data-target="#email">Voir plus d'evenements</button> 
-             </div>
-         </div>
-         <h1 class="title gallerys">PHOTO GALLERY</h1>
-         <div class="row">
-           <div class="col-12 soccer">
-             <a href="/Foto gallery.html"><img class="foot" src="/images/foot.PNG" alt="foot"></a>
+                    <button class="btn" data-toggle="modal" data-target="#email">En savoir plus</button> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 d-flex justify-content-center mt-3">
+                <button class="btn" data-toggle="modal" data-target="#email">Voir plus d'evenements</button> 
+              </div>
+            </div>
+          <h1 class="title gallerys">PHOTO GALLERY</h1>
+          <div class="row">
+            <div class="col-12 soccer">
+              <a href="/Foto gallery.html"><img class="foot" src="/images/foot.PNG" alt="foot"></a>
            </div>
-         </div>
-         <div class="row d-flex justify-content-center">
-           <div class="col-3">
-            <header class="title-resultats">
-              <h1 class="title">RESULTATS S4</h1>
-            </header>
-            <section class="resuslats">
-              <article class="score">
-                <p>Ascoli</p>
-                <img class="equipe" src="/images/ascoli.PNG" alt="ascoli">
-                <p><b>1 - 2</b></p>
-                <img class="equipe" src="/images/logo.PNG" alt="tagliolese">
-                <p>Tagliolese</p>
-              </article>
-              <article class="score">
-                <p>Crotone</p>
-                <img class="equipe" src="/images/crotone.PNG" alt="crotone">
-                <p><b>1 - 0</b></p>
-                <img class="equipe" src="/images/triestina.PNG" alt="triestina">
-                <p>triestina</p>
-              </article>
-              <article class="score">
-                <p>Frosinone</p>
-                <img class="equipe" src="/images/frosinone.PNG" alt="frosinone">
-                <p><b>0 - 0</b></p>
-                <img class="equipe" src="/images/reggina.PNG" alt="reggina">
-                <p>Reggina</p>
-              </article>
-              <article class="score">
-                <p>Grosseto</p>
-                <img class="equipe" src="/images/grosseto.PNG" alt="grosseto">
-                <p><b>3 - 2</b></p>
-                <img class="equipe" src="/images/piacenza.PNG" alt="piacenza">
-                <p>Piacenza</p>
-              </article>
-              <article class="score">
-                <p>Modena</p>
-                <img class="equipe" src="/images/modena.PNG" alt="modena">
-                <p><b>2 - 2</b></p>
-                <img class="equipe" src="/images/padova.PNG" alt="padova">
-                <p>Padova</p>
-              </article>
-            </section>
-           </div>
-           <div class="col-7">
-            <header class="title-resultats">
-              <h1 class="title">CLASSEMENT</h1>
-            </header>
-            <table class="table table-striped">
-            <thead>
-              <tr class="bg-dark text-white">
-                <th scope="col"></th>
-                <th scope="col">EQUIPE</th>
-                <th scope="col">PT</th>
-                <th scope="col">G</th>
-                <th scope="col">V</th>
-                <th scope="col">N</th>
-                <th scope="col">P</th>
-                <th scope="col">GF</th>
-                <th scope="col">GS</th>
-                <th scope="col">DR</th>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-4 col-8 ml-3 mr-3">
+              <header class="title-resultats">
+                <h1 class="title">RESULTATS S4</h1>
+              </header>
+              <section class="resuslats">
+                <article class="score">
+                  <p>Ascoli</p>
+                  <img class="equipe" src="/images/ascoli.PNG" alt="ascoli">
+                  <p><b>1 - 2</b></p>
+                  <img class="equipe" src="/images/logo.PNG" alt="tagliolese">
+                  <p>Tagliolese</p>
+                </article>
+                <article class="score">
+                  <p>Crotone</p>
+                  <img class="equipe" src="/images/crotone.PNG" alt="crotone">
+                  <p><b>1 - 0</b></p>
+                  <img class="equipe" src="/images/triestina.PNG" alt="triestina">
+                  <p>triestina</p>
+                </article>
+                <article class="score">
+                  <p>Frosinone</p>
+                  <img class="equipe" src="/images/frosinone.PNG" alt="frosinone">
+                  <p><b>0 - 0</b></p>
+                  <img class="equipe" src="/images/reggina.PNG" alt="reggina">
+                  <p>Reggina</p>
+                </article>
+                <article class="score">
+                  <p>Grosseto</p>
+                  <img class="equipe" src="/images/grosseto.PNG" alt="grosseto">
+                  <p><b>3 - 2</b></p>
+                  <img class="equipe" src="/images/piacenza.PNG" alt="piacenza">
+                  <p>Piacenza</p>
+                </article>
+                <article class="score">
+                  <p>Modena</p>
+                  <img class="equipe" src="/images/modena.PNG" alt="modena">
+                  <p><b>2 - 2</b></p>
+                  <img class="equipe" src="/images/padova.PNG" alt="padova">
+                  <p>Padova</p>
+                </article>
+              </section>
+            </div>
+            <div class="col-md-7 col-12">
+              <div class="title-resultats">
+                <h1 class="title">CLASSEMENT</h1>
+              </div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col"></th>
+                      <th scope="col">EQUIPE</th>
+                      <th scope="col">PT</th>
+                      <th scope="col">G</th>
+                      <th scope="col">V</th>
+                      <th scope="col">N</th>
+                      <th scope="col">P</th>
+                      <th scope="col">GF</th>
+                      <th scope="col">GS</th>
+                      <th scope="col">DR</th>
               </tr>
             </thead>
             <tbody>
@@ -274,5 +288,8 @@
         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
       </svg></a>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
