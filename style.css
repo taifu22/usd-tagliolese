@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .maps, .img-section {
+  .maps, .img-section, .foot {
     width: 100%;
   }
 }
@@ -55,12 +55,8 @@ header .navbar {
 }
 
 .foot {
-  height: 400px;
   width: 100%;
   border-radius: 100px;
-  background-image: url(/images/foot.PNG);
-  background-size: 100%;
-  background-repeat: no repeat;
 }
 
 .equipe {

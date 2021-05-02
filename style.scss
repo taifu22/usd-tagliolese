@@ -49,12 +49,10 @@ header .navbar {
     }
 }
 .foot {
-    height: 400px;
+  
     width: 100%;
     border-radius: 100px;
-    background-image:url(/images/foot.PNG) ;
-    background-size: 100%;
-    background-repeat:no repeat;
+    @extend %query1200px;
 }
 .equipe {
     height: 36px;
